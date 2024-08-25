@@ -1,0 +1,27 @@
+/*.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}*/
+
+.contentWrapper {
+    height: 100%;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.container {
+    color: var(--colors-grey900);
+    /*display: grid;
+    grid-template-areas: "sidebar main";
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100%;*/
+    height: 100%;
+    overflow: auto;
+    max-width: 100%;
+}
